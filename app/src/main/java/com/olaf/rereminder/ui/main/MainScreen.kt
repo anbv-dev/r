@@ -1,7 +1,9 @@
+package com.olaf.rereminder.ui.main
+
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.ui.text.font.FontWeight
 import com.olaf.rereminder.ui.format.formatOneTimeSchedule
 import com.olaf.rereminder.ui.format.formatRelativeCapsule
-package com.olaf.rereminder.ui.main
 
 import android.content.Intent
 import android.widget.Toast
@@ -271,9 +273,6 @@ fun MainScreen(
         view.tick()
     }
 
-    Scaffold(
-        containerColor = MaterialTheme.colorScheme.background,
-        snackbarHost = { SnackbarHost(snackbarHostState) },
     // Cycling header text logic
     var headerCycleIndex by remember { mutableIntStateOf(0) }
     val upcomingCount = uiState.upcomingRows.size
