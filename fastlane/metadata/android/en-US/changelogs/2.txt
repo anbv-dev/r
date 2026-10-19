@@ -1,0 +1,6 @@
+This is a major update with a complete rewrite of the app!
+
+-Complete Redesign: Now using Jetpack compose
+-Enhanced Settings: Introduced TTS, vibration and sound settings.
+-Improved Stability: Alarms and notifications are now more reliable.
+-"Don't Kill My App" Integration: Includes a helpful one-time warning for users on devices with aggressive background process management.
